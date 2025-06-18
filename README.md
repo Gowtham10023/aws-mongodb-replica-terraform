@@ -25,5 +25,9 @@ terraform init
 # Validate config
 terraform validate
 
+#Plan
+terrafrom plan
+
 # Apply infrastructure
-terraform apply
+terraform apply -auto-approve
+
