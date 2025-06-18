@@ -1,0 +1,17 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform provider files
+.terraform
+
+# Sensitive variable files
+terraform.tfvars
+
+# Keys - do not push
+*.pem
+*.key
+*.pub
+
+# Crash logs
+crash.log
